@@ -2,11 +2,11 @@ Blazor Sections são usadas para controlar o conteúdo em um componente  pai a p
 
 Para isso usamos dois componentes integrados  :
 
-SectionOutlet: Renderiza o conteúdo fornecido pelos componentes SectionContent com argumentos 
+**SectionOutlet**: Renderiza o conteúdo fornecido pelos componentes SectionContent com argumentos 
 SectionName ou SectionId correspondentes. 
 (Dois ou mais componentes SectionOutlet não podem ter o mesmo SectionName ou SectionId.)
 
-SectionContent: Fornece conteúdo como um RenderFragment para componentes SectionOutlet com um 
+**SectionContent**: Fornece conteúdo como um RenderFragment para componentes SectionOutlet com um 
 SectionName ou SectionId correspondente. 
 (Se vários componentes SectionContent tiverem o mesmo SectionName ou SectionId, o componente 
 SectionOutlet correspondente renderizará o conteúdo do último SectionContent renderizado.)
