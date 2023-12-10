@@ -8,9 +8,9 @@ _(Dois ou mais componentes SectionOutlet não podem ter o mesmo SectionName ou S
 
 **SectionContent**: Fornece conteúdo como um RenderFragment para componentes SectionOutlet com um 
 SectionName ou SectionId correspondente. 
-_(Se vários componentes SectionContent tiverem o mesmo SectionName ou SectionId, o componente 
-SectionOutlet correspondente renderizará o conteúdo do último SectionContent renderizado.)
-_
+(_Se vários componentes SectionContent tiverem o mesmo SectionName ou SectionId, o componente 
+SectionOutlet correspondente renderizará o conteúdo do último SectionContent renderizado_.)
+
 As seções podem ser usadas em layouts e em componentes pai-filho aninhados.
 
 Para criar uma seção usamos um objeto SectionOutlet identificado por um **SectionName** ou pelo parâmetro SectionId.
